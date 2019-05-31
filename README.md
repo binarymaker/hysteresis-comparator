@@ -35,8 +35,8 @@ hysteresis_t hy_comp_2;
 void main()
 {
    /* Initialization of hysteresis comparator */
-   hysteresis_create(&hy_comp_1, 30, 100);  /* 30 - compare value, 100 - time delay in ms*/
-   hysteresis_create(&hy_comp_2, 50, 150);  /* 50 - compare value, 150 - time delay in ms*/
+   hysteresis_create(&hy_comp_1, 30, 100);  /* 30 - threshold value, 100 - time delay in ms*/
+   hysteresis_create(&hy_comp_2, 50, 150);  /* 50 - threshold value, 150 - time delay in ms*/
 
    while(1)
    {
@@ -71,7 +71,7 @@ Test parameter
 Signal
    + channel 1 - Signal + Noise (+/- 100)
    + channel 2 - Normal comparator
-   + channel 3 - hysteresis comparator
+   + channel 3 - Hysteresis comparator
   
 ![alt text](image/Capture1.png)
 
