@@ -25,14 +25,14 @@
 /**
  * @file hysteresis.h
  * @author binary maker <https://github.com/binarymaker>
- * @brief digital signal hysteresis comparetor (schmitt trigger)
+ * @brief digital signal hysteresis comparetor
  * @date 2019-05-31
  */
 
 /*                                                   
                       /\/\                             ,  ,
 signal            /\/\    /\/\                     /\/\ || /\/\
-  threshold->-/\/\------------/\/\ ------------/\/\-----||-----/\/\--
+  threshold->-/\/\------------/\/\-------------/\/\-----||-----/\/\--
                 ^               ^  /\/\    /\/\  ^      ||            
                 |               |      /\/\      |      ||             
              Noise make error in compare --------+      ^^-spike
